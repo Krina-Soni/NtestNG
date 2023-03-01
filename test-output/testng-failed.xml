@@ -6,8 +6,8 @@
       <class name="com.automation.test.OrderPageTest">
         <methods>
           <include name="cleanUp"/>
+          <include name="verifyUserAddProducttocart"/>
           <include name="setUp"/>
-          <include name="CheckoutValidtion"/>
         </methods>
       </class> <!-- com.automation.test.OrderPageTest -->
     </classes>
