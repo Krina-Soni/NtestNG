@@ -64,9 +64,6 @@ public class HomePage extends BasePage {
 		cartIcon.click();
 	}
 	
-	public void clickOnCartbutton() {
-		cartbutton.click();
-	}
 	public boolean isRemoveitemVisible() {
 		return Removecartbutton.isDisplayed();
 	}
