@@ -25,6 +25,8 @@ public class OrderPageTest extends BaseTest {
 //		cartPage.clickOnCheckoutIcon();
 //		Assert.assertTrue(chkout1.isContinueDisplayed(), "Checkout page is not loaded");
 //		chkout1.AddDetails("Krina", "soni", "FK28RE");
+//	chkout1.AddDetails("Krina", "soni", "FK28RE");
+
 //
 //		String chkitemName = chkout2.getcheckoutItemName();
 //		String chkitemPrice = chkout2.getcheckoutItemPrice();
@@ -49,7 +51,6 @@ public class OrderPageTest extends BaseTest {
 		homePage.clickOnAddToCartBtn();
 		homePage.isRemoveitemVisible();
 		homePage.clickOnCartIcon();
-
 		Assert.assertTrue(cartPage.isCartPageDisplayed(), "Cart page is not loaded");
 		Assert.assertTrue(cartPage.getItemName().equals(itemName), "Item name is not matching with home page");
 		Assert.assertTrue(cartPage.getItemPrice().equals(itemPrice), "Item price is not matching with home page");
